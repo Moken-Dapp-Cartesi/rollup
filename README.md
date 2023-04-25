@@ -1,9 +1,5 @@
 # Moken DApp
 
-## Requirements
-
-Please refer to the [rollups-examples requirements](https://github.com/cartesi/rollups-examples/tree/main/README.md#requirements).
-
 ## Building
 
 To build the application, run the following command:
