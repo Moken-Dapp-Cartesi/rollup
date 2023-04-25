@@ -100,3 +100,29 @@ Resulting notices can then be retrieved by querying the local Cartesi Node, as b
 ```shell
 yarn start notice list
 ```
+
+## Projects Structure:
+
+```
+├── dapp.json
+├── deploy-testnet.yml
+├── docker-bake.hcl
+├── docker-bake.override.hcl
+├── docker-compose-host.yml
+├── docker-compose.override.yml
+├── docker-compose-testnet.yml
+├── docker-compose.yml
+├── Dockerfile
+├── entrypoint.sh
+├── moken-dapp.py
+├── README.md
+├── requirements.txt
+└── std-rootfs
+    ├── build-dapp-fs.sh
+    ├── build-machine.sh
+    ├── default.json
+    ├── dependencies
+    ├── Dockerfile
+    ├── run-machine-console.sh
+    └── shasumfile
+```
